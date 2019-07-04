@@ -1,0 +1,72 @@
+33 Messages Loaded
+Asserts file unavailable
+[0] User program list:
+	Program [pt4] with arrival time [0]
+	[0] New process [3] moving to the [NEW] state
+	[0] Process [3] created from program [SystemIdleProcess]
+	[0] Process [3] moving from the [NEW] state to the [READY] state
+	[0] New process [0] moving to the [NEW] state
+	[0] Process [0] created from program [pt4]
+	[0] Process [0] moving from the [NEW] state to the [READY] state
+	[0] Ready-to-run processes queue:
+		USER: [0, 1]
+		DAEMONS: [3, 100]
+	[0] SLEEPING Queue: 
+	[0] Running Process Information: [PID: -1, Priority: 0, WakeUp: 0, Queue: USER]
+	[0] PID association with program's name:
+		PID: 0 -> pt4
+		PID: 3 -> SystemIdleProcess
+	[0] Process [0] moving from the [READY] state to the [EXECUTING] state
+[1] y 0 0 (PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[2] n 0 0 (PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[3] t 4 0 (PC: 2, Accumulator: 0, PSW: 2 [--------------Z-])
+[4] o 2 0 (PC: 241, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+[6] y 0 0 (PC: 2, Accumulator: 0, PSW: 2 [--------------Z-])
+[7] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[8] Clock interrupt number [1] has occurred.
+[9] y 0 0 (PC: 2, Accumulator: 0, PSW: 2 [--------------Z-])
+[10] a 10 -13 (PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[11] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[12] Clock interrupt number [2] has occurred.
+[13] y 0 0 (PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[14] t 4 0 (PC: 4, Accumulator: -3, PSW: 4 [-------------N--])
+[15] o 2 0 (PC: 241, Accumulator: -3, PSW: 32900 [M-------X----N--])
+[17] y 0 0 (PC: 4, Accumulator: -3, PSW: 4 [-------------N--])
+[18] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[19] Clock interrupt number [3] has occurred.
+[20] y 0 0 (PC: 4, Accumulator: -3, PSW: 4 [-------------N--])
+[21] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[22] Clock interrupt number [4] has occurred.
+[23] y 0 0 (PC: 4, Accumulator: -3, PSW: 4 [-------------N--])
+[24] w 15 0 (PC: 5, Accumulator: -3, PSW: 4 [-------------N--])
+[25] t 4 0 (PC: 6, Accumulator: -3, PSW: 4 [-------------N--])
+[26] o 2 0 (PC: 241, Accumulator: -3, PSW: 32900 [M-------X----N--])
+[28] y 0 0 (PC: 6, Accumulator: -3, PSW: 4 [-------------N--])
+[29] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[30] Clock interrupt number [5] has occurred.
+[31] y 0 0 (PC: 6, Accumulator: -3, PSW: 4 [-------------N--])
+[32] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[33] Clock interrupt number [6] has occurred.
+[34] y 0 0 (PC: 6, Accumulator: -3, PSW: 4 [-------------N--])
+[35] t 3 0 (PC: 7, Accumulator: -3, PSW: 4 [-------------N--])
+[36] o 2 0 (PC: 241, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[37] Process [0] has requested to terminate
+	[37] Process [0] moving from the [EXECUTING] state to the [EXIT] state
+	[37] Process [3] moving from the [READY] state to the [EXECUTING] state
+	[37] Ready-to-run processes queue:
+		USER: 
+		DAEMONS: 
+	[37] SLEEPING Queue: 
+	[37] Running Process Information: [PID: 3, Priority: 100, WakeUp: 0, Queue: DAEMONS]
+	[37] PID association with program's name:
+		PID: 0 -> pt4
+		PID: 3 -> SystemIdleProcess
+[38] y 0 0 (PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[39] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[40] Clock interrupt number [7] has occurred.
+[41] y 0 0 (PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[42] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[43] Clock interrupt number [8] has occurred.
+[44] y 0 0 (PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[45] h 0 0 (PC: 183, Accumulator: 0, PSW: 131 [--------X-----ZS])
+[45] END of the simulation

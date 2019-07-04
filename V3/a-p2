@@ -1,0 +1,60 @@
+1, ACC, 0
+1, XPID, 0
+1, PSW, 2
+1, PC, 0
+1, AMEM_OP, t, 3
+2, ACC, 0
+2, XPID, 0
+2, PSW, 2
+2, PC, 1
+2, AMEM_OP, t, 3
+3, ACC, -3
+3, XPID, 0
+3, PSW, 4
+3, PC, 2
+3, AMEM_OP, t, 3
+4, ACC, -3
+4, XPID, 0
+4, PSW, 4
+4, PC, 3
+4, AMEM_OP, t, 3
+5, ACC, -3
+5, XPID, 0
+5, PSW, 4
+5, PC, 4
+5, AMEM_OP, t, 3
+7, ACC, 0
+7, XPID, 3
+7, PSW, 32898
+7, PC, 242
+7, AMEM_OP, t, 3
+8, ACC, 0
+8, XPID, 3
+8, PSW, 130
+8, PC, 183
+8, AMEM_OP, t, 3
+10, ACC, 0
+10, XPID, 3
+10, PSW, 32898
+10, PC, 246
+10, AMEM_OP, t, 3
+11, ACC, 0
+11, XPID, 3
+11, PSW, 130
+11, PC, 183
+11, AMEM_OP, t, 3
+13, ACC, 0
+13, XPID, 3
+13, PSW, 32898
+13, PC, 246
+13, AMEM_OP, t, 3
+14, ACC, 0
+14, XPID, 3
+14, PSW, 130
+14, PC, 183
+14, AMEM_OP, t, 3
+15, ACC, 0
+15, XPID, 3
+15, PSW, 131
+15, PC, 183
+15, AMEM_OP, t, 3

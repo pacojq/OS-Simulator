@@ -1,0 +1,606 @@
+1, ACC, 0
+1, XPID, 0
+1, PSW, 2
+1, PC, 0
+1, AMEM_OP, a, 3
+1, AMEM_OP, a, 3
+1, AMEM_OP, a, 3
+1, IR_OP, y
+1, IR_01, 0
+3, XPID, 0
+3, PSW, 4
+3, PC, 2
+3, AMEM_OP, a, 3
+3, AMEM_OP, a, 3
+3, AMEM_OP, a, 3
+3, IR_OP, a
+3, IR_01, 10
+4, ACC, -3
+4, XPID, 0
+4, PSW, 4
+4, PC, 3
+4, AMEM_OP, a, 3
+4, AMEM_OP, a, 3
+4, AMEM_OP, a, 3
+4, IR_OP, w
+4, IR_01, 15
+5, ACC, -3
+5, XPID, 0
+5, PSW, 4
+5, PC, 4
+5, AMEM_OP, a, 3
+5, AMEM_OP, a, 3
+5, AMEM_OP, a, 3
+5, IR_OP, a
+5, IR_01, 10
+7, ACC, -3
+7, XPID, 0
+7, PSW, 32900
+7, PC, 246
+7, AMEM_OP, a, 3
+7, AMEM_OP, a, 3
+7, AMEM_OP, a, 3
+7, IR_OP, o
+7, IR_01, 9
+8, ACC, -3
+8, XPID, 0
+9, PC, 5
+9, AMEM_OP, a, 3
+9, AMEM_OP, a, 3
+9, AMEM_OP, a, 3
+9, IR_OP, t
+9, IR_01, 4
+11, ACC, 0
+11, XPID, 2
+11, PSW, 32898
+11, PC, 242
+11, AMEM_OP, a, 3
+11, AMEM_OP, a, 3
+11, AMEM_OP, a, 3
+11, IR_OP, o
+11, IR_01, 2
+12, ACC, 0
+12, XPID, 2
+12, PSW, 2
+14, AMEM_OP, a, 3
+14, AMEM_OP, a, 3
+14, AMEM_OP, a, 3
+14, IR_OP, o
+14, IR_01, 9
+15, ACC, 0
+15, XPID, 2
+15, PSW, 2
+15, PC, 0
+15, AMEM_OP, a, 3
+15, AMEM_OP, a, 3
+15, AMEM_OP, a, 3
+15, IR_OP, y
+15, IR_01, 0
+17, ACC, 0
+17, XPID, 2
+17, PSW, 32898
+17, PC, 246
+17, AMEM_OP, a, 3
+17, AMEM_OP, a, 3
+17, AMEM_OP, a, 3
+17, IR_OP, o
+17, IR_01, 9
+19, XPID, 2
+19, PSW, 2
+19, PC, 1
+19, AMEM_OP, a, 3
+19, AMEM_OP, a, 3
+19, AMEM_OP, a, 3
+19, IR_OP, n
+19, IR_01, 0
+20, ACC, -3
+20, XPID, 2
+20, PSW, 4
+20, PC, 2
+20, AMEM_OP, a, 3
+20, AMEM_OP, a, 3
+20, AMEM_OP, a, 3
+20, IR_OP, a
+20, IR_01, 10
+22, ACC, -3
+22, XPID, 2
+22, PSW, 32900
+22, PC, 246
+22, AMEM_OP, a, 3
+22, AMEM_OP, a, 3
+23, IR_OP, y
+23, IR_01, 0
+24, ACC, -3
+24, XPID, 2
+24, PSW, 4
+24, PC, 3
+24, AMEM_OP, a, 3
+24, AMEM_OP, a, 3
+24, AMEM_OP, a, 3
+24, IR_OP, w
+24, IR_01, 15
+25, ACC, -3
+25, XPID, 2
+25, PSW, 4
+25, PC, 4
+25, AMEM_OP, a, 3
+25, AMEM_OP, a, 3
+25, AMEM_OP, a, 3
+25, IR_OP, a
+25, IR_01, 10
+27, ACC, -3
+27, XPID, 2
+27, PSW, 32900
+27, PC, 246
+27, AMEM_OP, a, 3
+27, AMEM_OP, a, 3
+27, AMEM_OP, a, 3
+27, IR_OP, o
+27, IR_01, 9
+29, XPID, 2
+29, PSW, 4
+29, PC, 5
+29, AMEM_OP, a, 3
+29, AMEM_OP, a, 3
+29, AMEM_OP, a, 3
+29, IR_OP, t
+29, IR_01, 4
+31, ACC, 0
+31, XPID, 1
+31, PSW, 32898
+31, PC, 242
+31, AMEM_OP, a, 3
+31, AMEM_OP, a, 3
+31, AMEM_OP, a, 3
+31, IR_OP, o
+31, IR_01, 2
+32, ACC, 0
+32, XPID, 1
+32, PSW, 2
+32, PC, 0
+32, AMEM_OP, a, 3
+32, AMEM_OP, a, 3
+32, AMEM_OP, a, 3
+32, IR_OP, y
+32, IR_01, 0
+34, ACC, 0
+34, XPID, 1
+34, PSW, 32898
+34, PC, 246
+35, AMEM_OP, a, 3
+35, AMEM_OP, a, 3
+35, IR_OP, y
+35, IR_01, 0
+37, ACC, 0
+37, XPID, 1
+37, PSW, 32898
+37, PC, 246
+37, AMEM_OP, a, 3
+37, AMEM_OP, a, 3
+37, AMEM_OP, a, 3
+37, IR_OP, o
+37, IR_01, 9
+38, ACC, 0
+38, XPID, 1
+38, PSW, 2
+38, PC, 0
+38, AMEM_OP, a, 3
+38, AMEM_OP, a, 3
+38, AMEM_OP, a, 3
+38, IR_OP, y
+38, IR_01, 0
+39, ACC, 0
+39, XPID, 1
+39, PSW, 2
+39, PC, 1
+39, AMEM_OP, a, 3
+39, AMEM_OP, a, 3
+39, AMEM_OP, a, 3
+39, IR_OP, n
+39, IR_01, 0
+40, ACC, -3
+40, XPID, 1
+40, PSW, 4
+42, AMEM_OP, a, 3
+42, AMEM_OP, a, 3
+42, AMEM_OP, a, 3
+42, IR_OP, o
+42, IR_01, 9
+43, ACC, -3
+43, XPID, 1
+43, PSW, 4
+43, PC, 2
+43, AMEM_OP, a, 3
+43, AMEM_OP, a, 3
+43, AMEM_OP, a, 3
+43, IR_OP, y
+43, IR_01, 0
+44, ACC, -3
+44, XPID, 1
+44, PSW, 4
+44, PC, 3
+44, AMEM_OP, a, 3
+44, AMEM_OP, a, 3
+44, AMEM_OP, a, 3
+44, IR_OP, w
+44, IR_01, 15
+45, ACC, -3
+45, XPID, 1
+45, PSW, 4
+45, PC, 4
+47, AMEM_OP, a, 3
+47, AMEM_OP, a, 3
+47, IR_OP, o
+47, IR_01, 9
+48, ACC, -3
+48, XPID, 1
+48, PSW, 4
+48, PC, 4
+48, AMEM_OP, a, 3
+48, AMEM_OP, a, 3
+48, AMEM_OP, a, 3
+48, IR_OP, y
+48, IR_01, 0
+49, ACC, -3
+49, XPID, 1
+49, PSW, 4
+49, PC, 5
+49, AMEM_OP, a, 3
+49, AMEM_OP, a, 3
+49, AMEM_OP, a, 3
+49, IR_OP, t
+49, IR_01, 4
+51, ACC, -3
+51, XPID, 0
+51, PSW, 32900
+51, PC, 242
+51, AMEM_OP, a, 3
+52, AMEM_OP, a, 3
+52, IR_OP, y
+52, IR_01, 0
+54, ACC, -3
+54, XPID, 0
+54, PSW, 32900
+54, PC, 246
+54, AMEM_OP, a, 3
+54, AMEM_OP, a, 3
+54, AMEM_OP, a, 3
+54, IR_OP, o
+54, IR_01, 9
+55, ACC, -3
+55, XPID, 0
+55, PSW, 4
+55, PC, 5
+55, AMEM_OP, a, 3
+55, AMEM_OP, a, 3
+55, AMEM_OP, a, 3
+55, IR_OP, y
+55, IR_01, 0
+57, ACC, -3
+57, XPID, 0
+57, PSW, 32900
+57, PC, 246
+57, AMEM_OP, a, 3
+57, AMEM_OP, a, 3
+57, AMEM_OP, a, 3
+58, IR_01, 0
+59, ACC, -3
+59, XPID, 0
+59, PSW, 4
+59, PC, 6
+59, AMEM_OP, a, 3
+59, AMEM_OP, a, 3
+59, AMEM_OP, a, 3
+59, IR_OP, w
+59, IR_01, 15
+60, ACC, -3
+60, XPID, 0
+60, PSW, 4
+60, PC, 7
+60, AMEM_OP, a, 3
+60, AMEM_OP, a, 3
+60, AMEM_OP, a, 3
+60, IR_OP, a
+60, IR_01, 10
+62, ACC, -3
+62, XPID, 0
+62, PSW, 32900
+62, PC, 246
+62, AMEM_OP, a, 3
+62, AMEM_OP, a, 3
+62, AMEM_OP, a, 3
+62, IR_OP, o
+62, IR_01, 9
+64, XPID, 0
+64, PSW, 4
+64, PC, 8
+64, AMEM_OP, a, 3
+64, AMEM_OP, a, 3
+64, AMEM_OP, a, 3
+64, IR_OP, t
+64, IR_01, 4
+66, ACC, -3
+66, XPID, 2
+66, PSW, 32900
+66, PC, 242
+66, AMEM_OP, a, 3
+66, AMEM_OP, a, 3
+66, AMEM_OP, a, 3
+66, IR_OP, o
+66, IR_01, 2
+67, ACC, -3
+67, XPID, 2
+67, PSW, 4
+67, PC, 5
+67, AMEM_OP, a, 3
+67, AMEM_OP, a, 3
+69, IR_OP, o
+69, IR_01, 9
+70, ACC, -3
+70, XPID, 2
+70, PSW, 4
+70, PC, 5
+70, AMEM_OP, a, 3
+70, AMEM_OP, a, 3
+70, AMEM_OP, a, 3
+70, IR_OP, y
+70, IR_01, 0
+72, ACC, -3
+72, XPID, 2
+72, PSW, 32900
+72, PC, 246
+72, AMEM_OP, a, 3
+72, AMEM_OP, a, 3
+72, AMEM_OP, a, 3
+72, IR_OP, o
+72, IR_01, 9
+73, ACC, -3
+73, XPID, 2
+73, PSW, 4
+73, PC, 5
+73, AMEM_OP, a, 3
+73, AMEM_OP, a, 3
+73, AMEM_OP, a, 3
+73, IR_OP, y
+73, IR_01, 0
+75, XPID, 2
+75, PSW, 4
+75, PC, 7
+75, AMEM_OP, a, 3
+75, AMEM_OP, a, 3
+75, AMEM_OP, a, 3
+75, IR_OP, a
+75, IR_01, 10
+77, ACC, -3
+77, XPID, 2
+77, PSW, 32900
+77, PC, 246
+77, AMEM_OP, a, 3
+77, AMEM_OP, a, 3
+77, AMEM_OP, a, 3
+77, IR_OP, o
+77, IR_01, 9
+78, ACC, -3
+78, XPID, 2
+78, PSW, 4
+78, PC, 7
+78, AMEM_OP, a, 3
+78, AMEM_OP, a, 3
+78, AMEM_OP, a, 3
+78, IR_OP, y
+78, IR_01, 0
+79, ACC, -3
+79, XPID, 2
+79, PSW, 4
+79, PC, 8
+81, AMEM_OP, a, 3
+81, AMEM_OP, a, 3
+81, IR_OP, o
+81, IR_01, 2
+82, ACC, -3
+82, XPID, 1
+82, PSW, 4
+82, PC, 5
+82, AMEM_OP, a, 3
+82, AMEM_OP, a, 3
+82, AMEM_OP, a, 3
+82, IR_OP, y
+82, IR_01, 0
+84, ACC, -3
+84, XPID, 1
+84, PSW, 32900
+84, PC, 246
+84, AMEM_OP, a, 3
+84, AMEM_OP, a, 3
+84, AMEM_OP, a, 3
+84, IR_OP, o
+84, IR_01, 9
+85, ACC, -3
+85, XPID, 1
+85, PSW, 4
+85, PC, 5
+85, AMEM_OP, a, 3
+85, AMEM_OP, a, 3
+87, IR_OP, o
+87, IR_01, 9
+88, ACC, -3
+88, XPID, 1
+88, PSW, 4
+88, PC, 5
+88, AMEM_OP, a, 3
+88, AMEM_OP, a, 3
+88, AMEM_OP, a, 3
+88, IR_OP, y
+88, IR_01, 0
+89, ACC, -3
+89, XPID, 1
+89, PSW, 4
+89, PC, 6
+89, AMEM_OP, a, 3
+89, AMEM_OP, a, 3
+89, AMEM_OP, a, 3
+89, IR_OP, w
+89, IR_01, 15
+90, ACC, -3
+90, XPID, 1
+90, PSW, 4
+90, PC, 7
+90, AMEM_OP, a, 3
+90, AMEM_OP, a, 3
+92, IR_OP, o
+92, IR_01, 9
+93, ACC, -3
+93, XPID, 1
+93, PSW, 4
+93, PC, 7
+93, AMEM_OP, a, 3
+93, AMEM_OP, a, 3
+93, AMEM_OP, a, 3
+93, IR_OP, y
+93, IR_01, 0
+94, ACC, -3
+94, XPID, 1
+94, PSW, 4
+94, PC, 8
+94, AMEM_OP, a, 3
+94, AMEM_OP, a, 3
+94, AMEM_OP, a, 3
+94, IR_OP, t
+94, IR_01, 4
+96, ACC, -3
+96, XPID, 0
+96, PSW, 32900
+96, PC, 242
+96, AMEM_OP, a, 3
+96, AMEM_OP, a, 3
+96, AMEM_OP, a, 3
+97, IR_01, 0
+99, ACC, -3
+99, XPID, 0
+99, PSW, 32900
+99, PC, 246
+102, AMEM_OP, a, 3
+102, IR_OP, o
+102, IR_01, 9
+104, XPID, 0
+104, PSW, 4
+104, PC, 9
+104, AMEM_OP, a, 3
+104, AMEM_OP, a, 3
+104, AMEM_OP, a, 3
+104, IR_OP, w
+104, IR_01, 15
+105, ACC, -3
+105, XPID, 0
+105, PSW, 4
+105, PC, 10
+105, AMEM_OP, a, 3
+105, AMEM_OP, a, 3
+105, AMEM_OP, a, 3
+105, IR_OP, t
+105, IR_01, 3
+107, ACC, -3
+107, XPID, 2
+111, AMEM_OP, a, 3
+111, AMEM_OP, a, 3
+113, IR_01, 9
+114, ACC, -3
+114, XPID, 2
+114, PSW, 4
+114, PC, 8
+114, AMEM_OP, a, 3
+114, AMEM_OP, a, 3
+114, AMEM_OP, a, 3
+114, IR_OP, y
+114, IR_01, 0
+115, ACC, -3
+115, XPID, 2
+115, PSW, 4
+115, PC, 9
+115, AMEM_OP, a, 3
+118, IR_OP, y
+118, IR_01, 0
+119, ACC, -3
+119, XPID, 2
+119, PSW, 4
+119, PC, 10
+119, AMEM_OP, a, 3
+119, AMEM_OP, a, 3
+119, AMEM_OP, a, 3
+119, IR_OP, t
+119, IR_01, 3
+121, ACC, -3
+121, XPID, 1
+121, PSW, 32900
+121, PC, 242
+121, AMEM_OP, a, 3
+121, AMEM_OP, a, 3
+121, AMEM_OP, a, 3
+121, IR_OP, o
+121, IR_01, 2
+122, ACC, -3
+125, PC, 8
+125, AMEM_OP, a, 3
+125, AMEM_OP, a, 3
+125, AMEM_OP, a, 3
+125, IR_OP, y
+125, IR_01, 0
+127, ACC, -3
+127, XPID, 1
+127, PSW, 32900
+127, PC, 246
+127, AMEM_OP, a, 3
+127, AMEM_OP, a, 3
+127, AMEM_OP, a, 3
+127, IR_OP, o
+127, IR_01, 9
+128, ACC, -3
+128, XPID, 1
+128, PSW, 4
+128, PC, 8
+128, AMEM_OP, a, 3
+128, AMEM_OP, a, 3
+128, AMEM_OP, a, 3
+128, IR_OP, y
+128, IR_01, 0
+129, ACC, -3
+129, XPID, 1
+129, PSW, 4
+132, AMEM_OP, a, 3
+132, AMEM_OP, a, 3
+132, IR_OP, o
+132, IR_01, 2
+133, ACC, 0
+133, XPID, 3
+133, PSW, 130
+133, PC, 183
+133, AMEM_OP, a, 3
+133, AMEM_OP, a, 3
+133, AMEM_OP, a, 3
+133, IR_OP, y
+133, IR_01, 0
+135, ACC, 0
+135, XPID, 3
+135, PSW, 32898
+135, PC, 246
+135, AMEM_OP, a, 3
+135, AMEM_OP, a, 3
+135, AMEM_OP, a, 3
+135, IR_OP, o
+139, XPID, 3
+139, PSW, 130
+139, PC, 183
+139, AMEM_OP, a, 3
+139, AMEM_OP, a, 3
+139, AMEM_OP, a, 3
+139, IR_OP, y
+139, IR_01, 0
+140, ACC, 0
+140, XPID, 3
+140, PSW, 131
+140, PC, 183
+140, AMEM_OP, a, 3
+140, AMEM_OP, a, 3
+140, AMEM_OP, a, 3
+140, IR_OP, h
+140, IR_01, 0

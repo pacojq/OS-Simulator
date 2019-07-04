@@ -1,0 +1,10 @@
+To use one of these files to test your solution,
+1.- Copy to your simulator directory.
+2.- Uncompress it (tar -xzf FileName.tgz). This will overwrite your MemConfig file, so be careful.
+3.- Execute the Test01, Test02, ... script including in the file.
+
+Files in this directory
+=======================
+README: this file
+Test01to4.tgz: files to test implementation after 4 first exercises.
+Test01to8.tgz: files to test implementation after all the exercises.

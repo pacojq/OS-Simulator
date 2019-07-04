@@ -1,0 +1,8 @@
+echo "Checking asserts"
+cp Test01to4asserts asserts
+./Simulator n p4.1 0 p4.2 0 p4.3 0 p4.4 10 p4.5 10
+echo "Press <enter> to generate the output"
+read n
+./Simulator a p4.1 0 p4.2 0 p4.3 0 p4.4 10 p4.5 10
+echo "Compare the previous output with Test01to4output file"
+

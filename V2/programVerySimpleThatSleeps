@@ -1,0 +1,7 @@
+
+30
+5
+ADD 10 0
+TRAP 7
+WRITE 15
+HALT

@@ -1,0 +1,208 @@
+44 Messages Loaded
+215 Asserts Loaded
+[0] User program list:
+	Program [p4.1] with arrival time [0]
+	Program [p4.2] with arrival time [0]
+	Program [p4.3] with arrival time [0]
+	Program [p4.4] with arrival time [10]
+	Program [p4.5] with arrival time [10]
+	[0] Running Process Information:
+		[--- No running process ---]
+	[0] Ready-to-run processes queue:
+		USER: 
+		DAEMONS: 
+	[0] SLEEPING Queue:
+		[--- empty queue ---]
+	[0] PID association with program's name:
+	[0] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[p4.1, 0, USER]
+		[p4.2, 0, USER]
+		[p4.3, 0, USER]
+		[p4.4, 10, USER]
+		[p4.5, 10, USER]
+	[0] New process [3] moving to the [NEW] state
+	[0] Process [3] created from program [SystemIdleProcess]
+	[0] Process [3] moving from the [NEW] state to the [READY] state
+	[0] New process [0] moving to the [NEW] state
+	[0] Process [0] created from program [p4.2]
+	[0] Process [0] moving from the [NEW] state to the [READY] state
+	[0] New process [1] moving to the [NEW] state
+	[0] Process [1] created from program [p4.1]
+	[0] Process [1] moving from the [NEW] state to the [READY] state
+	[0] New process [2] moving to the [NEW] state
+	[0] Process [2] created from program [p4.3]
+	[0] Process [2] moving from the [NEW] state to the [READY] state
+	[0] Running Process Information:
+		[--- No running process ---]
+	[0] Ready-to-run processes queue:
+		USER: [0, 5], [1, 5], [2, 5]
+		DAEMONS: [3, 100]
+	[0] SLEEPING Queue:
+		[--- empty queue ---]
+	[0] PID association with program's name:
+		PID: 0 -> p4.2
+		PID: 1 -> p4.1
+		PID: 2 -> p4.3
+		PID: 3 -> SystemIdleProcess
+	[0] Arrival Time Queue:
+		[p4.5, 10, USER]
+		[p4.4, 10, USER]
+	[0] Process [0] moving from the [READY] state to the [EXECUTING] state
+[1] y 0 0(PID:0 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[2] w -55 1(PID:0 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[3] o 6 0 (PC: 243, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[4] Process [0]->[p4.2] has caused an exception (invalid address) and is being terminated
+	[4] Process [0] moving from the [EXECUTING] state to the [EXIT] state
+	[4] Process [2] moving from the [READY] state to the [EXECUTING] state
+	[4] Running Process Information:
+		[PID: 2, Priority: 5, WakeUp: 0, Queue: USER]
+	[4] Ready-to-run processes queue:
+		USER: [1, 5]
+		DAEMONS: [3, 100]
+	[4] SLEEPING Queue:
+		[--- empty queue ---]
+	[4] PID association with program's name:
+		PID: 1 -> p4.1
+		PID: 2 -> p4.3
+		PID: 3 -> SystemIdleProcess
+	[4] Arrival Time Queue:
+		[p4.5, 10, USER]
+		[p4.4, 10, USER]
+[5] y 0 0(PID:2 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[6] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[7] Clock interrupt number [1] has occurred.
+[8] y 0 0(PID:2 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[9] w 5 1(PID:2 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[10] b 3 2(PID:2 PC: 2, Accumulator: 0, PSW: 2 [--------------Z-])
+[11] o 6 0 (PC: 243, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[12] Process [2]->[p4.3] has caused an exception (invalid instruction) and is being terminated
+	[12] Process [2] moving from the [EXECUTING] state to the [EXIT] state
+	[12] Process [1] moving from the [READY] state to the [EXECUTING] state
+	[12] Running Process Information:
+		[PID: 1, Priority: 5, WakeUp: 0, Queue: USER]
+	[12] Ready-to-run processes queue:
+		USER: 
+		DAEMONS: [3, 100]
+	[12] SLEEPING Queue:
+		[--- empty queue ---]
+	[12] PID association with program's name:
+		PID: 1 -> p4.1
+		PID: 3 -> SystemIdleProcess
+	[12] Arrival Time Queue:
+		[p4.5, 10, USER]
+		[p4.4, 10, USER]
+[13] y 0 0(PID:1 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[14] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[15] Clock interrupt number [2] has occurred.
+	[15] New process [0] moving to the [NEW] state
+	[15] Process [0] created from program [p4.5]
+	[15] Process [0] moving from the [NEW] state to the [READY] state
+	[15] New process [2] moving to the [NEW] state
+	[15] Process [2] created from program [p4.4]
+	[15] Process [2] moving from the [NEW] state to the [READY] state
+	[15] Running Process Information:
+		[PID: 1, Priority: 5, WakeUp: 0, Queue: USER]
+	[15] Ready-to-run processes queue:
+		USER: [0, 5], [2, 5]
+		DAEMONS: [3, 100]
+	[15] SLEEPING Queue:
+		[--- empty queue ---]
+	[15] PID association with program's name:
+		PID: 0 -> p4.5
+		PID: 1 -> p4.1
+		PID: 2 -> p4.4
+		PID: 3 -> SystemIdleProcess
+	[15] Running Process Information:
+		[PID: 1, Priority: 5, WakeUp: 0, Queue: USER]
+	[15] Ready-to-run processes queue:
+		USER: [0, 5], [2, 5]
+		DAEMONS: [3, 100]
+	[15] SLEEPING Queue:
+		[--- empty queue ---]
+	[15] PID association with program's name:
+		PID: 0 -> p4.5
+		PID: 1 -> p4.1
+		PID: 2 -> p4.4
+		PID: 3 -> SystemIdleProcess
+[16] y 0 0(PID:1 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[17] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[18] Clock interrupt number [3] has occurred.
+[19] y 0 0(PID:1 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[20] w 5 1(PID:1 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[21] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[22] Clock interrupt number [4] has occurred.
+[23] y 0 0(PID:1 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[24] h 0 0(PID:1 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[25] o 6 0 (PC: 243, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[26] Process [1]->[p4.1] has caused an exception (invalid processor mode) and is being terminated
+	[26] Process [1] moving from the [EXECUTING] state to the [EXIT] state
+	[26] Process [2] moving from the [READY] state to the [EXECUTING] state
+	[26] Running Process Information:
+		[PID: 2, Priority: 5, WakeUp: 0, Queue: USER]
+	[26] Ready-to-run processes queue:
+		USER: [0, 5]
+		DAEMONS: [3, 100]
+	[26] SLEEPING Queue:
+		[--- empty queue ---]
+	[26] PID association with program's name:
+		PID: 0 -> p4.5
+		PID: 2 -> p4.4
+		PID: 3 -> SystemIdleProcess
+[27] y 0 0(PID:2 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[28] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[29] Clock interrupt number [5] has occurred.
+[30] y 0 0(PID:2 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[31] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[32] Clock interrupt number [6] has occurred.
+[33] y 0 0(PID:2 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[34] w 5 1(PID:2 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[35] d 3 0(PID:2 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[36] o 6 0 (PC: 243, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[37] Process [2]->[p4.4] has caused an exception (division by zero) and is being terminated
+	[37] Process [2] moving from the [EXECUTING] state to the [EXIT] state
+	[37] Process [0] moving from the [READY] state to the [EXECUTING] state
+	[37] Running Process Information:
+		[PID: 0, Priority: 5, WakeUp: 0, Queue: USER]
+	[37] Ready-to-run processes queue:
+		USER: 
+		DAEMONS: [3, 100]
+	[37] SLEEPING Queue:
+		[--- empty queue ---]
+	[37] PID association with program's name:
+		PID: 0 -> p4.5
+		PID: 3 -> SystemIdleProcess
+[38] y 0 0(PID:0 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[39] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[40] Clock interrupt number [7] has occurred.
+[41] y 0 0(PID:0 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[42] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[43] Clock interrupt number [8] has occurred.
+[44] y 0 0(PID:0 PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[45] w 5 1(PID:0 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[46] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[47] Clock interrupt number [9] has occurred.
+[48] y 0 0(PID:0 PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[49] t 12 0(PID:0 PC: 2, Accumulator: 0, PSW: 2 [--------------Z-])
+[50] o 2 0 (PC: 241, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[51] Process [0]->[p4.5] has made an invalid system call (12) and is being terminated
+	[51] Process [0] moving from the [EXECUTING] state to the [EXIT] state
+	[51] Process [3] moving from the [READY] state to the [EXECUTING] state
+	[51] Running Process Information:
+		[PID: 3, Priority: 100, WakeUp: 0, Queue: DAEMONS]
+	[51] Ready-to-run processes queue:
+		USER: 
+		DAEMONS: 
+	[51] SLEEPING Queue:
+		[--- empty queue ---]
+	[51] PID association with program's name:
+		PID: 3 -> SystemIdleProcess
+[52] y 0 0(PID:3 PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[53] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[54] Clock interrupt number [10] has occurred.
+[55] y 0 0(PID:3 PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[56] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[57] Clock interrupt number [11] has occurred.
+[58] y 0 0(PID:3 PC: 183, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[59] h 0 0(PID:3 PC: 183, Accumulator: 0, PSW: 131 [--------X-----ZS])
+[59] END of the simulation
